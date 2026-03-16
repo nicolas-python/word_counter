@@ -13,13 +13,24 @@ def word_counter():
 
     user_text = input("Welchen Text möchtest du Zerlegt haben?")
 
-    for word in user_text.split():
+    woerter = len(user_text.split())
+
+    for zeichen in user_text:
+
+        if zeichen.isalpha():
+            buchstaben += 1
+
+        elif zeichen.isdigit():
+            zahlen += 1
+
+        else:
+            sonderzeichen += 1
+
+    print("Sie haben Buchstaben:",buchstaben)
+    print("Sie haben Woerter:",woerter)
+    print("Sie haben Zahlen:",zahlen)
+    print("Sie haben Sonderzeichen:",sonderzeichen)
 
 
-        print("Sie haben Buchstaben:",buchstaben)
-        print("Sie haben Woerter:",woerter)
-        print("Sie haben Zahlen:",zahlen)
-        print("Sie habven Sonderzeichen:",sonderzeichen)
-
-
+#ausführung pogramm
 word_counter()

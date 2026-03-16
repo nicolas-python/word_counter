@@ -1,13 +1,13 @@
 # Word Counter
 
-Ein einfaches Programm, das die Anzahl der Wörter ,Buchstaben , Zeichen und Sonderzeichen in einem Text zählt.
+Ein Programm, das die Anzahl der Wörter ,Buchstaben , Zeichen und Sonderzeichen in einem Text zählt.
 
 ## Funktionen
 
--zählt Wörter
--zählt Buchstaben 
--zählt Sonderzeichen 
--zählt Zahlen
+- zählt Wörter
+- zählt Buchstaben 
+- zählt Sonderzeichen 
+- zählt Zahlen
 
 ## Nutzung 
 

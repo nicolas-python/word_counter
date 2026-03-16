@@ -23,6 +23,9 @@ def word_counter():
         elif zeichen.isdigit():
             zahlen += 1
 
+        elif zeichen == " ":        # Leerzeichen sollen nicht als Sonderzeichen zählen
+            pass
+
         else:
             sonderzeichen += 1
 
@@ -32,5 +35,5 @@ def word_counter():
     print("Sie haben Sonderzeichen:",sonderzeichen)
 
 
-#ausführung pogramm
+#Ausführung Programm
 word_counter()
